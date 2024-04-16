@@ -2,6 +2,9 @@
 ### Swift project using application flow for any sample scoial media app
 
 
+![social-media-app](https://raw.githubusercontent.com/kishorepran/social-media-app/master/social-media-demo.gif)
+
+
 ## About the application
 The app consists of 2 screens, where the user can see the list of posts. we have used a select author button at the top of the page to help support switch between authors internally, also we have provided a ahndy switcher at the bottm of the screen to help users switch from one user view to other. i.e. see posts from all users vs. see post from my self only. Note that this `my self` is dynamic which user can change with the help of select author button. Further the users have the chance to craete a post by using the create button in the navigation bar right hand side.
 
