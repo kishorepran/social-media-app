@@ -1,0 +1,82 @@
+{
+    "list": [
+        {
+            "author": {
+                "authorName": "John Doe",
+                "authorUserName": "johndoe123",
+                "authorImagePath": "https://picsum.photos/id/237/100/100"
+            },
+            "message": {
+                "message": "This is my first media post!",
+                "messageImagePath": "https://picsum.photos/id/70/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "Jane Smith",
+                "authorUserName": "janesmith987",
+                "authorImagePath": "https://picsum.photos/id/64/100/100"
+            },
+            "message": {
+                "message": "Sharing a beautiful sunset!",
+                "messageImagePath": "https://picsum.photos/id/71/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "Alice Lee",
+                "authorUserName": "alicelee",
+                "authorImagePath": "https://picsum.photos/id/65/100/100"
+            },
+            "message": {
+                "message": "Feeling grateful today!",
+                "messageImagePath": "https://picsum.photos/id/72/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "John Doe",
+                "authorUserName": "johndoe123",
+                "authorImagePath": "https://picsum.photos/id/237/100/100"
+            },
+            "message": {
+                "message": "Just finished reading a great book, highly recommend!",
+                "messageImagePath": "https://picsum.photos/id/73/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "Jane Smith",
+                "authorUserName": "janesmith987",
+                "authorImagePath": "https://picsum.photos/id/64/100/100"
+            },
+            "message": {
+                "message": "Sharing some funny cat videos!",
+                "messageImagePath": "https://picsum.photos/id/74/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "Alice Lee",
+                "authorUserName": "alicelee",
+                "authorImagePath": "https://picsum.photos/id/65/100/100"
+            },
+            "message": {
+                "message": "Excited for the weekend!",
+                "messageImagePath": "https://picsum.photos/id/75/100/100"
+            }
+        },
+        {
+            "author": {
+                "authorName": "John Doe",
+                "authorUserName": "johndoe123",
+                "authorImagePath": "https://picsum.photos/id/237/100/100"
+            },
+            "message": {
+                "message": "Here's a recipe I tried this week, it was delicious!",
+                "messageImagePath": "https://picsum.photos/id/76/100/100"
+            }
+        }
+    ]
+}
+

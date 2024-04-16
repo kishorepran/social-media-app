@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PostListTableViewCell" customModule="socialmedia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="254"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sampleAuthor" translatesAutoresizingMaskIntoConstraints="NO" id="1z4-Kg-4PV">
+                    <rect key="frame" x="16" y="16" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CnX-lu-5P5"/>
+                        <constraint firstAttribute="width" constant="50" id="dMb-VE-PAd"/>
+                        <constraint firstAttribute="width" secondItem="1z4-Kg-4PV" secondAttribute="height" multiplier="1:1" id="rXK-V2-stX"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6f5-j3-WUc">
+                    <rect key="frame" x="74" y="15.999999999999998" width="303" height="19.333333333333329"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJc-ac-ck1">
+                    <rect key="frame" x="74" y="45.333333333333336" width="303" height="12"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample" translatesAutoresizingMaskIntoConstraints="NO" id="gLZ-CT-3Nc">
+                    <rect key="frame" x="74" y="73.333333333333314" width="303" height="160"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="gLZ-CT-3Nc" secondAttribute="height" multiplier="303:160" id="ADl-eQ-nFU"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="gLZ-CT-3Nc" secondAttribute="bottom" constant="20.670000000000002" id="4iw-7d-yIE"/>
+                <constraint firstItem="6f5-j3-WUc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="5bi-RR-eRo"/>
+                <constraint firstAttribute="trailing" secondItem="6f5-j3-WUc" secondAttribute="trailing" constant="16" id="VyH-c2-H77"/>
+                <constraint firstItem="gLZ-CT-3Nc" firstAttribute="top" secondItem="hJc-ac-ck1" secondAttribute="bottom" constant="16" id="XC9-3U-BeA"/>
+                <constraint firstItem="6f5-j3-WUc" firstAttribute="leading" secondItem="1z4-Kg-4PV" secondAttribute="trailing" constant="8" symbolic="YES" id="Xuq-tS-4gQ"/>
+                <constraint firstItem="1z4-Kg-4PV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="dJF-76-dON"/>
+                <constraint firstItem="hJc-ac-ck1" firstAttribute="top" secondItem="6f5-j3-WUc" secondAttribute="bottom" constant="10" id="fnH-nT-8XI"/>
+                <constraint firstAttribute="trailing" secondItem="hJc-ac-ck1" secondAttribute="trailing" constant="16" id="fyO-wC-Muk"/>
+                <constraint firstItem="1z4-Kg-4PV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="hSX-Yj-O82"/>
+                <constraint firstItem="gLZ-CT-3Nc" firstAttribute="leading" secondItem="hJc-ac-ck1" secondAttribute="leading" id="igg-Y8-w4u"/>
+                <constraint firstItem="hJc-ac-ck1" firstAttribute="leading" secondItem="1z4-Kg-4PV" secondAttribute="trailing" constant="8" symbolic="YES" id="poA-bD-D3C"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="gLZ-CT-3Nc" secondAttribute="trailing" constant="16" id="zmA-QN-b1a"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageViewPostAuthor" destination="1z4-Kg-4PV" id="XAC-FT-4WH"/>
+                <outlet property="imageviewPostImage" destination="gLZ-CT-3Nc" id="C3h-Xi-KRa"/>
+                <outlet property="lblPostAuthor" destination="6f5-j3-WUc" id="umK-yU-pIc"/>
+                <outlet property="lblPostMessage" destination="hJc-ac-ck1" id="Hyw-4M-EpL"/>
+            </connections>
+            <point key="canvasLocation" x="136.64122137404578" y="56.338028169014088"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sample" width="3888" height="2592"/>
+        <image name="sampleAuthor" width="4106" height="2806"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
